@@ -1,0 +1,71 @@
+body {
+    background-color: beige;
+}
+article{
+    display:flex;
+    background-color: aliceblue;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+section.Imagen {
+    display: flex;
+   justify-content: space-around;
+    flex-direction: row;
+    margin: 10px;    
+}
+div.jhonny{
+    display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   flex-direction: column;
+}
+div.Yo{
+  width: 50%;
+    display: flex;
+   flex-direction: column;
+  justify-content: center;
+}
+section.Conocimiento{
+    margin-top: 20px;
+    width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-content: center;
+border-bottom: 5px solid red;
+}
+div.Educacion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+   margin-right: 0%;
+   border-right: 5px solid red;
+   height: 50%;
+}
+div.Idiomas{
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+section.Trabajos{
+    display: flex;
+    flex-direction: column;
+}
+section.personal{
+    display: flex;
+justify-content: space-around;
+   flex-direction: row;
+   margin: 10px;
+}
+div.Habilidades{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+div.habilidades{
+    display: flex;
+    flex-direction: column;
+}
